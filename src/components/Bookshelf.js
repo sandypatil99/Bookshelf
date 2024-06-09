@@ -1,4 +1,3 @@
-// src/components/Bookshelf.js
 import React from 'react';
 
 const Bookshelf = ({ bookshelf }) => {

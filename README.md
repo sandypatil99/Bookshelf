@@ -46,26 +46,6 @@ Follow these instructions to set up the project locally.
     npm start
     ```
 
-4. **Open the application**:
-
-    Open your browser and navigate to `http://localhost:3000`.
-
-## Deployment
-
-Deploy your project on a hosting platform like Netlify or Vercel.
-
-### Netlify Deployment
-
-1. Push your code to a GitHub repository.
-2. Log in to [Netlify](https://www.netlify.com/) and click on "New site from Git".
-3. Connect your GitHub repository and follow the prompts to deploy.
-
-### Vercel Deployment
-
-1. Push your code to a GitHub repository.
-2. Log in to [Vercel](https://vercel.com/) and click on "New Project".
-3. Connect your GitHub repository and follow the prompts to deploy.
-
 ## Project Structure
 
 ```plaintext
@@ -85,12 +65,12 @@ personal-bookshelf/
 
 
 
-Components
+<!-- Components -->
 BookCard: Displays individual book details and an "Add to Bookshelf" button.
 SearchBooks: Provides an input field to search for books and displays search results.
 Bookshelf: Displays the books added to the personal bookshelf.
 
 
-API
+<!-- API -->
 Open Library Search API: Used to fetch book data based on user queries.
 https://openlibrary.org/search.json?q=YOUR_QUERY&limit=10&page=1

@@ -10,16 +10,24 @@ header {
 }
 
 nav a {
-  
   margin: 0 15px;
   color: white;
   text-decoration: none;
 }
 
 .search-books input {
-  padding: 15px;
+  padding: 10px;
   width: 40%;
-  margin: 25px 0;
+  margin: 20px 0;
+}
+
+.search-box button {
+  position: absolute;
+  border: none;
+  border-radius:0px 7px 7px 0px;
+  margin: 20px 0;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .book-list {
@@ -29,19 +37,15 @@ nav a {
 }
 
 .book-card {
-  border: 0.8px solid black;
-  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
   margin: 10px;
-  padding: 5px;
   width: 200px;
-  height: 250px;
-  
 }
 
 .book-card h3 {
   margin: 0;
   font-size: 1.2em;
-  
 }
 
 .book-card p {
@@ -55,8 +59,8 @@ button {
   background-color: #61dafb;
   border: none;
   cursor: pointer;
-  border-radius: 10px;
-  position: relative;
+  border-radius: 7px;
+
 }
 
 button:hover {
