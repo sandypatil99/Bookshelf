@@ -22,7 +22,7 @@ const App = () => {
     <Router>
       <div className="app">
         <header>
-          <h1>Best Bookshelf</h1>
+          <h1>Personal Bookshelf</h1>
           <nav>
             <Link to="/">Search Books</Link>
             <Link to="/bookshelf">My Bookshelf</Link>
